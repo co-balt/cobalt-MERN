@@ -2,6 +2,6 @@ version: '3'
 services:
   dev:
     build: dev/.
-    image: cobalt-mevn/dev
+    image: cobalt-mern/dev
     volumes:
-      - ../app/mevn:/app    
+      - ../app/mern:/app    
