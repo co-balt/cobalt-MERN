@@ -7,6 +7,10 @@
 <p> MERN stands for M(ongo), E(xpress), R(eact), N(ode)</p>
 <p> It's a javascript-only web development stack. Mongo provides the database. Node is a server which runs an Express-based API. The client-side web framework is React.</p>
 <p> If you are unfamiliar with the concepts of #database, #api, #server, and #client, you might want to ask a cobalter before proceeding.</p>
+<p> To make sure the stack works on Mac, Windows, Linux, and everything in between, running the app is performed via docker by default. If you do NOT want to use docker, you can do this:
+ <ol>
+  <li>Copy the contents of 'app/mern' to use as the root of your application</li>
+  <li>Make sure you have #mongodb, #express, #react, #node, and #webpack installed on your local machine</li>
 
 ### Links
  * [MongoDB](https://www.mongodb.com/)
